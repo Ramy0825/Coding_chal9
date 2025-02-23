@@ -1,6 +1,6 @@
 // Task 1 - Creating Employee Class
-class Employee {
-    constructor(name, id, department, salary) {
+class Employee { // create an employee class
+    constructor(name, id, department, salary) { // the diff things put into the class
         this.name = name;
         this.id = id;
         this.department = department;
@@ -8,17 +8,17 @@ class Employee {
     }
      getDetails() {
         return `Employee: ${this.name}, 
-        ID: ${this.id}, Department: 
-        ${this.department}, 
+        ID: ${this.id},
+         Department: ${this.department}, 
         Salary: $${this.salary}`;
     }
-     calculateAnnualSalary() {
-        return this.salary * 12;
+     calculateAnnualSalary() { // to calculate the annual salary  and multiply it by 12
+        return this.salary * 12; 
     }
 };
 
 // Task 2 - Creating a Manager Class
-class Manager extends Employee {
+class Manager extends Employee { // make the employye a manager 
     constructor(name, id, department, salary, teamSize) {
         super(name, id, department, salary);
         this.teamSize = teamSize;
@@ -41,7 +41,7 @@ class Manager extends Employee {
 
 // Task 3 - Creating a Company Class
 class Company {
-    constructor(name) {
+    constructor(name) { // make a class for a company so it will include name of the company and the amount of employees 
         this.name = name;
         this.employees = [];
     }
