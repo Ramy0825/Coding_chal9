@@ -22,7 +22,7 @@ class Manager extends Employee { // make the employye a manager
     constructor(name, id, department, salary, teamSize) {
         super(name, id, department, salary);
         this.teamSize = teamSize;
-    }
+    }  ; 
 
     getDetails() {
         return `Manager: ${this.name}, 
