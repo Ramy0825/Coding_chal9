@@ -69,7 +69,7 @@ class Company {
         this.addEmployee(newManager); 
         this.employees = this.employees.filter(emp => emp !== employee); // Remove old employee
     }
-}
+};
 
 // Test Cases
 
