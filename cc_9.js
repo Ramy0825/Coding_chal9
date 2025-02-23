@@ -39,7 +39,7 @@ class Manager extends Employee { // make the employye a manager
     }
 };;
 
-// Task 3 - Creating a Company Class
+// Task 3 - Creating a Company Class n
 class Company {
     constructor(name) { // make a class for a company so it will include name of the company and the amount of employees 
         this.name = name;
