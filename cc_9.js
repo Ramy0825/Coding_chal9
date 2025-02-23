@@ -61,7 +61,7 @@ class Company {
             total += employee.calculateAnnualSalary();
         }
         return total;
-    }
+    }; 
 
     // Task 5 - Promoting an Employee to Manager
     promoteToManager(employee, teamSize) {
